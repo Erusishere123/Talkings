@@ -7,7 +7,7 @@ import logging
 logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # CLIENT CONNECTION
-SERVER = "rattle-hail-antarctopelta.glitch.me/"
+SERVER = "localhost"
 PORT = 8764  # Ensure this matches the port your server is listening on
 
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
